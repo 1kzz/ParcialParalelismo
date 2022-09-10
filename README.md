@@ -1,1 +1,6 @@
 # ParcialParalelismo
+
+mm_lib.h es la interfaz donde se encuentran las funciones de los benchmarks para matrices enteras, enteras aleatorioas, doble y dobles aleatorias. 
+En mm_lib.c se encuentran las funciones declaradas, se hace uso de tiempo final y tiempo final para saber cuanto es el tiempo que se demora en realizar el calculo de cada una de las operaciones, se encuentra iiinicializar matrices para entera, y doble, tambien el producto de matrices que obedece el algoritmo en clase, se crearon dos funciones random, una para enteros y otra para numeros dobles para las pruebas de las matrices dobles aleatorias.
+
+En los main se encuentra respectivamente el codigo fuente principal para cada tipo de matrices que se desea correr. El makefile posee las instrucciones para compilar cada programa automaticamente y para realizar una limpieza de la carpeta elimando los objetos y los ejecutables. y finalmente el lanzador es la automatizacion de los codigos para ejecutar todos los ejecutables y guardar los resultados en un txt y para cada programa se crea un txt distinto para poder diferenciarlos, para ejecutar el lanzador debe crear primero una carpeta llamada 'resultados' en la misma carpeta donde estan los archivos para crear los txt con los datos guardados.
