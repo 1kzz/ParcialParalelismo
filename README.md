@@ -1,6 +1,6 @@
 # ParcialParalelismo
 
-mm_lib.h es la interfaz donde se encuentran los prototipos de las funciones de los benchmarks de matrices enteras, enteras aleatorioas, doble y dobles aleatorias. 
+mm_lib.h es la interfaz donde se encuentran los prototipos de las funciones de los benchmarks de matrices de tipo entero y doble.  
 En mm_lib.c se encuentran las funciones declaradas.
 Se hace uso de la interfaz de tiempo para poder medir el tiempo del rendimiento del el calculo de cada una de las operaciones.
 
