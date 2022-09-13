@@ -10,10 +10,10 @@ Hay dos funciones random para generar las matrices aleatorias, una de tipo enter
 Finalmente está la función que imprime las matrices correspondientes.
 En los main para cada benchmark se realiza el código fuente principal.
 
-El makefile posee las instrucciones para compilar cada programa automaticamente y para realizar una limpieza de la carpeta elimando los objetos y los ejecutables.
+El makefile posee las instrucciones para compilar cada programa automáticamente y para realizar una limpieza de la carpeta elimando los objetos y los ejecutables.
 make clean para limpiar
 make mm_main seguido de int o double para realizar la compilación de los otros benchmark.
 
-Finalmente el lanzador es la automatizacion de los ejecutables para correr todos los ejecutables y almacenar los resultados en un txt y para cada programa se crea un txt distinto para poder diferenciarlos.
+Finalmente el lanzador es la automatización de los ejecutables para correr todos los ejecutables y almacenar los resultados en un txt y para cada programa se crea un txt distinto para poder diferenciarlos.
 Para ejecutar el lanzador debe crear primero una carpeta llamada 'resultados' en la misma carpeta donde estan los archivos para crear los txt con los datos guardados.
 
