@@ -2,7 +2,7 @@
 
 mm_lib.h es la interfaz donde se encuentran los prototipos de las funciones de los benchmarks de matrices de tipo entero y doble.  
 En mm_lib.c se encuentran las funciones declaradas.
-Se hace uso de la interfaz de tiempo para poder medir el tiempo del rendimiento del el calculo de cada una de las operaciones.
+Se hace uso de la interfaz de tiempo para poder medir el tiempo del rendimiento del calculo de cada una de las operaciones.
 
 Están las funciones que inicializan respectivamente las matrices de enteros, y doble.
 Esta la función para el producto de matrices, se realiza el algoritmo clásico mxm 
